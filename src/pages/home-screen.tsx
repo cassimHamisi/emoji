@@ -25,13 +25,13 @@ export default function HomeScreen({ navigation }: HomeStackProps) {
             style={styles.emoji}
             onPress={() => navigation.navigate("EmojiTwo")}
           >
-            🙁
+            😐
           </Text>
           <Text
             style={styles.emoji}
             onPress={() => navigation.navigate("EmojiThree")}
           >
-            😦
+            🙁
           </Text>
         </View>
         <Text style={{ fontSize: 18, textAlign: "center" }}>
